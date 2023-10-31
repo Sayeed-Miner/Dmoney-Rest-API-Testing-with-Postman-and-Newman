@@ -1,11 +1,11 @@
-# Dmoney-Rest-API-Testing-with-Postman-and-Newman
+# DMoney Rest API Testing with Postman and Newman
 
 ## Technology used:
 - Postman
 - Newman
 
 ## API documentation:
-  - https://documenter.getpostman.com/view/1844288/UzBiQpVN
+  - 
   
 ## Test Cases (Google Sheet link is given below): 
 - 
