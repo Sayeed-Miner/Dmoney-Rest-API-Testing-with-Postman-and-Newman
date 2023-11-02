@@ -1,5 +1,30 @@
 # DMoney Rest API Testing with Postman and Newman
 
+## How to run this project:
+- Dowload "Dmoney Rest API Testing.postman_collection.json" file
+- Open Command Prompt(CMD) on your system
+- Newman install command
+```bash
+npm install -g newman
+```
+- HTML extra install command 
+```bash
+npm install -g newman-reporter-html
+```
+- Copy folder path where file downloaded
+```bash
+cd [Path]
+```
+Example: cd C:\Users\Sayeed\Downloads
+- Run command for test collections
+```bash
+newman run "Dmoney Rest API Testing.postman_collection.json"
+```
+- Run command for newman report
+```bash
+newman run "Dmoney Rest API Testing.postman_collection.json" -r htmlextra
+```
+
 ## Tools:
 - Postman
 - Newman
